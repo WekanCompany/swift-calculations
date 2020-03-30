@@ -94,4 +94,3 @@ extension ViewController {
         lblPayAmount.text = "$ \(String(format: "%.2f", (totalAmount - discountAmount) + taxAmount))"
     }
 }
-
